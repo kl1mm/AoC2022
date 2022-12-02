@@ -4,7 +4,7 @@
 public class Part1
 {
     [Test]
-    public async Task Part_1()
+    public async Task Test()
     {
         var input = await File.ReadAllTextAsync(Path.Combine("Day_1", "input.txt"));
         var result = input.Split("\r\n\r\n")
